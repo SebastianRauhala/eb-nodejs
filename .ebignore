@@ -1,0 +1,19 @@
+# This file tells the EB CLI which files to ignore when creating the app bundle.
+
+# Ignore node_modules, as EB will run 'npm install' on the server.
+node_modules/
+
+# Ignore local environment files
+.env
+
+# Ignore logs
+*.log
+npm-debug.log*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts if you have a local build step
+/dist
+/build

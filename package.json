@@ -1,0 +1,11 @@
+{
+  "name": "Elastic-Beanstalk-Sample-App",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@splunk/otel": "^3.3.0"
+  },
+  "scripts": {
+    "start": "node -r @splunk/otel/instrument app.js"
+  }
+}

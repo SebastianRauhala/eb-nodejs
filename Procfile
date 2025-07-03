@@ -1,0 +1,1 @@
+web: node -r @splunk/otel/instrument app.js
